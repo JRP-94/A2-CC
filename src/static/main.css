@@ -1,0 +1,60 @@
+.error {
+    color: red;
+}
+
+body {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: #000000;
+    border-radius: 15px;
+}
+
+.username{
+    position: absolute;
+width: 250px;
+height: 100px;
+left: 1620px;
+top: 55px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.055em;
+
+color: #FF2B51;
+}
+
+.navbar{
+
+position: absolute;
+width: 668px;
+height: 73px;
+left: 635px;
+top: 94.53px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.055em;
+
+color: #FFFFFF;
+
+transform: rotate(-0.3deg);
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }

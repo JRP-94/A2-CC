@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div class="container">
+        <a href="/register">Register</a>
+        <h1>Login</h1>
+        <form method="post">
+            <input type ="text" name="email" placeholder="Email" value="{{request.form.email}}"/>
+            <input type="password" name="password" placeholder="Password" value="{{request.form.password}}"/>
+            <input type="submit" value="Submit"/>
+        </form>
+        {% if error %}
+        <span class="error"> {{error}} </span>
+        {% endif %}
+    </div>
+{% endblock %}
